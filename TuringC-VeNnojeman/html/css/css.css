@@ -1,0 +1,21 @@
+@-webkit-keyframes shanshuobiaoyu {
+    0%{transform: rotate(20deg),scale(1);}
+    50%{transform: rotate(20deg),scale(1.5);}
+    100%{transform: rotate(20deg),scale(1);}
+}
+@keyframes shanshuobiaoyu {
+    0%{transform: rotate(20deg),scale(1);}
+    50%{transform: rotate(20deg),scale(1.5);}
+    100%{transform: rotate(20deg),scale(1);}
+}
+p.shanshuobiaoyu{
+    -webkit-animation-name: shanshuobiaoyu;
+    animation-name: shanshuobiaoyu;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    text-align: right;
+    color: yellow;
+}
+body {
+    background-color: black;
+}

@@ -1,0 +1,17 @@
+/*
+/include/register
+Copyright(C)2021,2024 Allen Nofa
+Sunday,15th September,2024
+*/
+#pragma once
+struct rgst
+{
+    unsigned char val;
+};
+
+unsigned char rg_get(struct rgst reg,unsigned char val){
+    return reg.val;
+}
+void rg_write(struct rgst reg,unsigned char val){
+    reg.val = val;
+}
